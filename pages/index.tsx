@@ -4,20 +4,20 @@ import Head from "next/head";
 
 import Header from "components/Header";
 import Skills from "components/Skills";
-import Projects from "components/Projects";
-import ProjectsTitle from "components/Projects/ProjectsTitle";
+//import Projects from "components/Projects";
+//import ProjectsTitle from "components/Projects/ProjectsTitle";
 import Footer from "components/Footer";
-import AllProjectsButton from "components/Projects/AllProjectsButton";
+//import AllProjectsButton from "components/Projects/AllProjectsButton";
 
-import allProjects, { ProjectType } from "lib/projects";
+//import allProjects, { ProjectType } from "lib/projects";
 
-const projects: ProjectType[] = [
+{/*const projects: ProjectType[] = [
   allProjects.devGram,
   allProjects.dogmash,
   allProjects.covid19,
   allProjects.connect4,
   allProjects.getItDone,
-];
+];*/}
 
 const IndexPage = () => {
   return (

@@ -3,10 +3,10 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import ForumIcon from "@material-ui/icons/Forum";
-import CodeIcon from "@material-ui/icons/Code";
+//import CodeIcon from "@material-ui/icons/Code";
 import { Box, IconButton, Link, Button } from "@material-ui/core";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
-import NextLink from "next/link";
+//import NextLink from "next/link";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
