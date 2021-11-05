@@ -34,7 +34,8 @@ import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
-//import CodeIcon from "@material-ui/icons/Code";
+import InfoIcon from '@material-ui/icons/Info';
+import DescriptionIcon from '@material-ui/icons/Description';
 import ForumIcon from "@material-ui/icons/Forum";
 import BuildIcon from "@material-ui/icons/Build";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
@@ -234,9 +235,23 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <SideBarButton text="Home" name="home">
           <HomeIcon />
         </SideBarButton>
-        <SideBarButton text="My Toolbelt" name="skills">
+        <SideBarButton text="Tech Skills" name="skills">
           <BuildIcon />
         </SideBarButton>
+        <SideBarButton text="About" name="about">
+          <InfoIcon />
+        </SideBarButton>
+        <Link href="/assets/resume/AnshulGautam_CV.pdf" passHref>
+          <ListItem button component="a"
+            target="_blank"
+            href="/assets/resume/AnshulGautam_CV.pdf"
+          >
+            <ListItemIcon>
+              <DescriptionIcon />
+            </ListItemIcon>
+            <ListItemText primary="Resume" />
+          </ListItem>
+        </Link>
         {/*<SideBarButton text="Featured Projects" name="projects">
           <CodeIcon />
         </SideBarButton>
@@ -388,6 +403,18 @@ export function MyApp({ Component, pageProps }: AppProps) {
                 {NavBarButton("Home", "home")}
                 {NavBarButton("Tech Skills", "skills")}
                 {NavBarButton("About", "about")}
+                <Link href="/assets/resume/AnshulGautam_CV.pdf" passHref>
+                  <Button
+                    className={classes.navbarRightButtons}
+                    component="a"
+                    target="_blank"
+                    href="/assets/resume/AnshulGautam_CV.pdf"
+                    color="inherit"
+                  >
+                    Resume
+                  </Button>
+                </Link>
+                {NavBarButton("Contact me", "contact")}
                 {/*{NavBarButton("Featured Projects", "projects")}
                 <Link href="/projects" passHref>
                   <Button
@@ -399,18 +426,6 @@ export function MyApp({ Component, pageProps }: AppProps) {
                     all projects
                   </Button>
                   </Link>*/}
-                  <Link href="/assets/resume/AnshulGautam_CV.pdf" passHref>
-                  <Button
-                    className={classes.navbarRightButtons}
-                    component="a"
-                    target="_blank"
-                    href="/assets/resume/AnshulGautam_CV.pdf"
-                    color="inherit"
-                  >
-                    Resume
-                  </Button>
-                  </Link>
-                {NavBarButton("Contact me", "contact")}
               </Box>
             </Hidden>
             <DarkModeIcon />
