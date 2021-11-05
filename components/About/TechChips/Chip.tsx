@@ -3,7 +3,7 @@ import { useSpring, animated as a } from "react-spring";
 import { Box, Typography } from "@material-ui/core";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 
-import { StackType } from "lib/projects";
+import { StackType } from "lib/AboutMetadata";
 
 function Chip({ label, logo, invert }: StackType) {
   const useStyles = makeStyles((theme: Theme) =>

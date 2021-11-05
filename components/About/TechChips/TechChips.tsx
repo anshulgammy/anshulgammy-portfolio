@@ -2,7 +2,7 @@ import { memo } from "react";
 import { createStyles, Grid, makeStyles, Theme } from "@material-ui/core";
 import Chip from "./Chip";
 
-import { StackType } from "lib/projects";
+import { StackType } from "lib/AboutMetadata";
 
 type appProps = {
   stack: StackType[];
