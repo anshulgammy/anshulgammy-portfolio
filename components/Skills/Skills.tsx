@@ -55,11 +55,7 @@ function Skills() {
       logos.mongodb,
       logos.git,
       logos.github,
-      logos.react,
-      logos.vercel,
-      logos.javascript,
-      logos.graphql,
-      logos.nextjs,
+      logos.react
     ],
     []
   );
@@ -151,7 +147,7 @@ function Skills() {
                 variant="h2"
                 gutterBottom
               >
-                My Tech Stack
+                Tech Skills
               </Typography>
               <div
               // ref={intersectionExitRef}

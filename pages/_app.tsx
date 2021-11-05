@@ -5,7 +5,7 @@ import { scroller } from "react-scroll";
 import * as gtag from "../lib/gtag";
 import { useRouter } from "next/router";
 import PropTypes from "prop-types";
-//import Link from "next/link";
+import Link from "next/link";
 import { AppProps } from "next/app";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { lime, red } from "@material-ui/core/colors";
@@ -386,7 +386,8 @@ export function MyApp({ Component, pageProps }: AppProps) {
             <Hidden mdDown>
               <Box mr={2}>
                 {NavBarButton("Home", "home")}
-                {NavBarButton("Tech Stack", "skills")}
+                {NavBarButton("Tech Skills", "skills")}
+                {NavBarButton("About", "about")}
                 {/*{NavBarButton("Featured Projects", "projects")}
                 <Link href="/projects" passHref>
                   <Button
@@ -398,6 +399,17 @@ export function MyApp({ Component, pageProps }: AppProps) {
                     all projects
                   </Button>
                   </Link>*/}
+                  <Link href="/assets/resume/AnshulGautam_CV.pdf" passHref>
+                  <Button
+                    className={classes.navbarRightButtons}
+                    component="a"
+                    target="_blank"
+                    href="/assets/resume/AnshulGautam_CV.pdf"
+                    color="inherit"
+                  >
+                    Resume
+                  </Button>
+                  </Link>
                 {NavBarButton("Contact me", "contact")}
               </Box>
             </Hidden>

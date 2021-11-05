@@ -4,20 +4,16 @@ import Head from "next/head";
 
 import Header from "components/Header";
 import Skills from "components/Skills";
-//import Projects from "components/Projects";
-//import ProjectsTitle from "components/Projects/ProjectsTitle";
+import AboutSectionsContainer from "components/About";
+import AboutTitle from "components/About/AboutTitle";
 import Footer from "components/Footer";
-//import AllProjectsButton from "components/Projects/AllProjectsButton";
 
-//import allProjects, { ProjectType } from "lib/projects";
+import allSections, { AboutSectionMetaStructure } from "lib/AboutMetadata";
 
-{/*const projects: ProjectType[] = [
-  allProjects.devGram,
-  allProjects.dogmash,
-  allProjects.covid19,
-  allProjects.connect4,
-  allProjects.getItDone,
-];*/}
+const sections: AboutSectionMetaStructure[] = [
+  allSections.softwareDevelopment,
+  allSections.creativeWriting
+];
 
 const IndexPage = () => {
   return (
@@ -38,9 +34,15 @@ const IndexPage = () => {
         <>
           <Header />
           <Skills />
-          {/*<ProjectsTitle text={"IT Industry Experience"} />
-          <Projects projects={projects} />
-          <AllProjectsButton />*/}
+          <AboutTitle text={"About"} />
+          <AboutSectionsContainer sections={sections} />
+          {
+            /*
+            <ProjectTitle text={"About"} />
+            <Projects projects={projects} />
+            <AllProjectsButton />
+            */
+          }
           <Footer />
         </>
       </motion.div>

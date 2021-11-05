@@ -15,7 +15,7 @@ const ToggleDarkModeContext = createContext<Dispatch<
 > | null>(null);
 
 export const DarkModeProvider = ({ children }: { children: ReactNode }) => {
-  const [theme, setTheme] = useLocalStorage("darkMode", true);
+  const [theme, setTheme] = useLocalStorage("darkMode", false);
   return (
     <DarkModeContext.Provider value={theme}>
       <ToggleDarkModeContext.Provider value={setTheme}>
