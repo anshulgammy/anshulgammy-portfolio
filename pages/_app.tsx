@@ -318,7 +318,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
+          content="https://www.anshulgautam.in"
         />
         <meta property="og:title" content="Anshul Gautam" />
         <meta
@@ -328,17 +328,17 @@ export function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/assets/programmer-meta.png`}
+          content="https://www.anshulgautam.in/assets/programmer-meta.png"
         />
 
         {/* <!-- Twitter --> */}
         <meta
           property="twitter:card"
-          content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/assets/programmer-meta.png`}
+          content="https://www.anshulgautam.in/assets/programmer-meta.png"
         />
         <meta
           property="twitter:url"
-          content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
+          content="https://www.anshulgautam.in"
         />
         <meta property="twitter:title" content="Anshul Gautam" />
         <meta
@@ -348,7 +348,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="twitter:image"
-          content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/assets/programmer-meta.png`}
+          content="https://www.anshulgautam.in/assets/programmer-meta.png"
         />
         <link
           rel="apple-touch-icon"
