@@ -31,10 +31,10 @@ const aboutSectionMetaEntires: AboutSectionMeta = {
   softwareDevelopment: {
     title: "I build Software and Solutions",
     description: [
-      "I have **7+ years of IT Industry experience**, where I have worked extensively on developing and maintening medium sized to large scale distributed and non-distributed applications for my clients using Java stack.",
+      "I have **7+ years of IT Industry experience**, where I have worked extensively on developing and maintaining medium sized to large scale distributed and monolithic applications for my clients using Java technologies.",
       "My experience encompasses all phases of software life cycle, with proven skills in **Agile Craftsmanship**.",
-      "Currently I am working as **Module Lead** for a highly data-driven organization dedicated to provide unified view of data for any enterprise. I work across a range of products and services to develop intelligent **Big Data** processing solutions.",
-      "When I am not coding, I am probably **gaming** or writing **blogs**!"
+      "Currently I am working as **Module Lead** for a highly data-driven organization dedicated to provide unified view of data for any enterprise. Here I work across a range of products and services to develop intelligent **Big Data** processing solutions.",
+      "When I am not coding, I am probably **gaming** or writing **blogs**."
     ],
     images: {
       main: {
@@ -53,7 +53,7 @@ const aboutSectionMetaEntires: AboutSectionMeta = {
       "I have flare for **writing**.",
       "Being an artist in nature, I find ways to represent my perspective through my blogs. Mostly, my areas of writing include **satire**, **poetry**, **short stories**, **life lessons**, and **experiences** I gathered over time",
       "I also try to include my poor **photography skills** and **digital paintings** in my blog posts.",
-      "I write on several platforms including my own blogging website, **Life of a Minion**. Check out my creative blog website from the link below.",
+      "I write on several platforms including my own blogging website, **Life of a Minion**. Check out my creative blog website from the link below."
     ],
     images: {
       main: {

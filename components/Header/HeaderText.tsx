@@ -57,7 +57,7 @@ function HeaderText() {
         I am a Software Engineer and Blogger from India
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
-        With a detail oriented focus, I enjoy creating simple but effective software solutions, improve application performance with ease of maintenance, and enhance the overall user experience.
+        {/*With a detail oriented focus, I enjoy creating simple but effective software solutions, improve application performance with ease of maintenance, and enhance the overall user experience.*/}
       </Typography>
       <Buttons />
     </Box>

@@ -153,7 +153,7 @@ function Footer() {
         <Grid container>
           <Grid item md={6} sm={12}>
             <Typography variant="h3" align="left">
-              Connect with me
+              Stay Connected
             </Typography>
             <article
               itemScope
@@ -229,7 +229,7 @@ function Footer() {
           </Grid>
           <Grid item md={6} sm={12}>
             <Typography variant="h3" align="left">
-              Say Hi
+              Leave a Message
             </Typography>
             <form onSubmit={handleFormSubmit}>
               <TextField

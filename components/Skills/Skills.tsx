@@ -46,15 +46,15 @@ function Skills() {
     () => [
       logos.java,
       logos.spring,
+      logos.microservice,
       logos.mssql,
       logos.cassandra,
+      logos.mongodb,
       logos.docker,
       logos.aws,
       logos.azure,
       logos.heroku,
-      logos.mongodb,
       logos.git,
-      logos.github,
       logos.react
     ],
     []

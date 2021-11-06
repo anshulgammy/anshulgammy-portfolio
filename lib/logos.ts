@@ -31,7 +31,8 @@ type logoNames =
   | "aws"
   | "azure"
   | "heroku"
-  | "mssql";
+  | "mssql"
+  | "microservice";
 
 type Logos = {
   [k in logoNames]: {
@@ -184,6 +185,10 @@ const logos: Logos = {
   mssql: {
     label: "MS SQL Server",
     logo: "/assets/icons/mssql.svg",
+  },
+  microservice: {
+    label: "Micro Services",
+    logo: "/assets/icons/microservice.png",
   }
 };
 
