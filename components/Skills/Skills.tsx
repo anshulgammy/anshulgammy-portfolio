@@ -51,7 +51,6 @@ function Skills() {
       logos.cassandra,
       logos.mongodb,
       logos.docker,
-      logos.aws,
       logos.azure,
       logos.heroku,
       logos.git,

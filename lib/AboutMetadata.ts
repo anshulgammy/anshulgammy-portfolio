@@ -31,7 +31,7 @@ const aboutSectionMetaEntires: AboutSectionMeta = {
   softwareDevelopment: {
     title: "I build Software and Solutions",
     description: [
-      "I have **7+ years of IT Industry experience**, where I have worked extensively on developing and maintaining medium sized to large scale distributed and monolithic applications for my clients using Java technologies.",
+      "I have **7+ years of IT Industry experience**, where I have worked extensively on developing and maintaining medium sized to large scale distributed and monolithic applications for my clients using **Java** technologies.",
       "My experience encompasses all phases of software life cycle, with proven skills in **Agile Craftsmanship**.",
       "Currently I am working as **Module Lead** for a highly data-driven organization dedicated to provide unified view of data for any enterprise. Here I work across a range of products and services to develop intelligent **Big Data** processing solutions.",
       "When I am not coding, I am probably **gaming** or writing **blogs**."
